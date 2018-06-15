@@ -1,0 +1,23 @@
+﻿body {
+    margin: auto;
+    width: 75%;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+#error {
+    color: red;
+}
+
+#instructions {
+    border: solid;
+    border-color: grey;
+    border-radius: 15px;
+    margin-top: 15px;
+    padding: 15px;
+    padding-top: 0px;
+}

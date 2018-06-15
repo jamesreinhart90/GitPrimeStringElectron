@@ -1,0 +1,12 @@
+{
+  "name": "prime-string-electron",
+  "version": "0.0.0",
+  "description": "PrimeStringElectron",
+  "main": "app.js",
+  "author": {
+    "name": "jreinhart"
+  },
+  "dependencies": {
+    "electron": "^2.0.2"
+  }
+}

@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Prime String Finder</title>
+    <link rel="stylesheet" href="../public/css/styles.css" />
+    <script>window.$ = window.jQuery = require('../public/javascripts/jquery-3.3.1.js');</script>
+    <script type="text/javascript" src="../public/javascripts/index.js"></script>
+</head>
+    <body>
+        <h1 class="center">Prime String Finder</h1>
+        <div id="instructions">
+            <h2>Instructions</h2>
+            <p>
+                Find all of the prime numbers from 1 to 1,000 then add all those numbers to a string.  Then take a users input 1 to 1,000 again
+                and find the that character in the string.  Then output the next 5 digits to a integer.  Return the integer.  Write in Electron, Express,
+                Java, C#, VB, and Python.
+            </p>
+        </div>
+        <h2>Start</h2>
+        <p>Please enter a number between 1 and 1,000 to get a 5 digit id.</p>
+        <p id="error"></p>
+        <input id="input" type="number" min="1" max="1000" required />
+        <button id="btn" onclick="getInfo()">Find</button>
+        <output id="output"></output>
+
+    </body>
+</html>
